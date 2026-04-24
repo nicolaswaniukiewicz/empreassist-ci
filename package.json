@@ -1,0 +1,21 @@
+{
+  "name": "empreassist-stock-ci",
+  "version": "1.0.0",
+  "description": "Modulo de stock y pedidos de EmpreAssist para actividad de Integracion Continua.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}
