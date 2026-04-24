@@ -46,4 +46,4 @@ export function generarMensajeReposicion(productos: Producto[]): string {
   return `Productos a reponer: ${faltantes.join(', ')}.`;
 }
 
-const error =
+
