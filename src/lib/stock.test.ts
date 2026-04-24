@@ -35,7 +35,7 @@ describe('Modulo de stock de EmpreAssist', () => {
       { productoId: 'prod-002', cantidad: 3, precioUnitario: 500 }
     ]);
 
-    expect(total).toBe(3500);
+    expect(total).toBe(9999);
   });
 
   it('permite que un encargado cargue stock', () => {
